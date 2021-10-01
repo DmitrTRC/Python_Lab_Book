@@ -15,3 +15,5 @@ print()
 
 for index, measurement in enumerate(measurements, 1):
     print(f'Measurement #{index} R = {measurement} ohms')
+
+print('Bye!')
