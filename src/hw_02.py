@@ -2,7 +2,7 @@ def is_anagram(word1, word2):
     """
     Checks if two words are anagrams of each other.
     """
-    return set(word1.lower()) == set(word2.lower())
+    return sorted(word1.lower()) == sorted(word2.lower())
 
 
 if __name__ == '__main__':
