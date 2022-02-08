@@ -11,5 +11,6 @@ def is_palindrome(word):
     return word == word[::-1]
 
 
-while unknown_word := input("Enter a word: "):
-    print(is_palindrome(unknown_word))
+if __name__ == '__main__':
+    while unknown_word := input("Enter a word: "):
+        print(is_palindrome(unknown_word))
